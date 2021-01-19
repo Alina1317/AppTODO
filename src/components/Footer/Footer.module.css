@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  min-width: 400px;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+
+.click {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 87px;
+  height: 34px;
+  font: normal normal 14px 'Jost', sans-serif;
+}
+
+.click:hover {
+  cursor: pointer;
+  transition: .2s ease;
+}

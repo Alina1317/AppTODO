@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+  min-height: 550px;
+  background-color: #efebe9;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+}
+
+.title {
+  font: normal normal 50px/ 60px 'Poiret One', cursive;
+  margin: 5% 0 2.5% 0;
+}

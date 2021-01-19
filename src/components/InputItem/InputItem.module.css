@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+input,
+button {
+  font-family: inherit;
+}
+
+.color {
+  color: #d30004;
+  border: 2px solid #d30004;
+  padding: 7px 17px;
+}
+
+.input {
+  display: grid;
+}
+
+.text {
+  font: normal normal 10px 'Didact Gothic', sans-serif;
+}
+
+.button {
+  margin: 15% 0 0 0;
+  background: #6e6c6b;
+  border-radius: 4px;
+  box-shadow: none;
+  font: normal normal 20px/ 30px 'Jost', sans-serif;
+  color: #fff;
+  padding: 0.3em 2.9em;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #9d9d9d;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.list {
+  margin: 0 0 2.5% 0;
+}
+
+.item {
+  font: normal normal 20px 'Jost', sans-serif;
+
+}
+
+.li {
+  list-style-type: none;
+}
+

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.wrap {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 45%;
+  margin: auto; */
+}
+
+.nav {
+  /* display: flex; */
+  /* background-color: #efebe9;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .7); */
+  /* min-width: 500px; */
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navlist {
+  /* display: flex;
+  justify-content: center;
+  min-width: 100%; */
+  display: flex;
+  width: 50%;
+  background-color: #efebe9;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+    /* justify-content: center; */
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  margin: 2% 8%;
+}
+
+li {
+  list-style-type: none;
+  font: normal normal 20px 'Jost', sans-serif;
+  transition: all .2s;
+
+}
+
+.list {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  padding-inline-start: 0;
+  margin: 0 6%;
+  flex-wrap: wrap;
+  /* display: flex;
+  justify-content: space-around;
+  min-width: 300px; */
+}
+
+.item:hover {
+  opacity: 0.5;
+}
+
+.item:active {
+  color: #485eca;
+}
+
+@media(max-width: 1024px) {
+  .navlist {
+    width: 80%;
+  }
+}
+
+@media(max-width: 580px) {
+  .navlist {
+    width: 100%;
+  }
+}
